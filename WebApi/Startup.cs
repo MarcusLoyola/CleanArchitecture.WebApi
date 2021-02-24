@@ -1,6 +1,8 @@
 using Application;
 using Application.Interfaces;
 using Infrastructure.Identity;
+using Infrastructure.Identity.Contexts;
+using Infrastructure.Identity.Models;
 using Infrastructure.Persistence;
 using Infrastructure.Shared;
 using Microsoft.AspNetCore.Builder;

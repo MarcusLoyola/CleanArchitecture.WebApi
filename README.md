@@ -95,7 +95,8 @@ Does it really make sense to Setup your ASP.NET Core Solution everytime you star
 
 This is the exact Problem that I intend to solve with this Full-Fledged ASP.NET Core 3.1 WebApi Solution Template, that also follows various principles of Clean Architecture.
 
-The primary goal is to create a Full-Fledged implementation, that is well documented along with the steps taken to build this Solution from Scratch. This Solution Template will also be available within Visual Studio 2019 (by installing the required Nuget Package / Extension).
+The primary goal is to create a Full-Fledged implementation, that is well documented along with the steps taken to build this Solution from Scratch. This Solution Template will also be available within 
+Visual Studio 2019 (by installing the required Nuget Package / Extension).
 - Demonstrate Clean Monolith Architecture in ASP.NET Core 3.1 
 - This is not a Proof of Concept
 - Implementation that is ready for Production

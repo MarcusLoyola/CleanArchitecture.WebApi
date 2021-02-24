@@ -10,6 +10,14 @@
     <Compile Remove="Migrations\20200627124316_Updates.Designer.cs" />
     <Compile Remove="Migrations\20200724180907_New.cs" />
     <Compile Remove="Migrations\20200724180907_New.Designer.cs" />
+    <Compile Remove="Migrations\20210224055023_ColumnNames.cs" />
+    <Compile Remove="Migrations\20210224055023_ColumnNames.Designer.cs" />
+    <Compile Remove="Migrations\20210224055227_ColumnNames.cs" />
+    <Compile Remove="Migrations\20210224055227_ColumnNames.Designer.cs" />
+    <Compile Remove="Migrations\20210224055738_CustomNames.cs" />
+    <Compile Remove="Migrations\20210224055738_CustomNames.Designer.cs" />
+    <Compile Remove="Migrations\20210224055956_CustomNames.cs" />
+    <Compile Remove="Migrations\20210224055956_CustomNames.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

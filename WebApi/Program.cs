@@ -13,6 +13,7 @@ using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Infrastructure.Identity.Models;
 using Microsoft.Extensions.DependencyInjection;
+using Infrastructure.Identity.Contexts;
 
 namespace WebApi
 {
@@ -37,7 +38,7 @@ namespace WebApi
                 try
                 {
                     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-                    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                    var roleManager = services.GetRequiredService<RoleManager<ApplicationRole>>();
 
                     await Infrastructure.Identity.Seeds.DefaultRoles.SeedAsync(userManager, roleManager);
                     await Infrastructure.Identity.Seeds.DefaultSuperAdmin.SeedAsync(userManager, roleManager);

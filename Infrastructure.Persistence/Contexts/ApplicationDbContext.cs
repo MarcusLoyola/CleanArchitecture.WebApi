@@ -52,6 +52,33 @@ namespace Infrastructure.Persistence.Contexts
             {
                 property.SetColumnType("decimal(18,6)");
             }
+
+            //foreach (var property in builder.Model.GetEntityTypes()
+            //.SelectMany(t => t.GetProperties())
+            //.Where(p => !p.IsKey()))
+            //{
+            //    var prefix = "";
+
+            //    switch (property.ClrType.ToString())
+            //    {
+            //        case "System.String":
+            //            prefix = "AN";
+            //            break;
+
+            //        case "System.Decimal":
+            //        case "System.Int32":
+            //            prefix = "NM";
+            //            break;
+
+            //        case "System.DateTime":
+            //        case "System.DateTime?":
+            //            prefix = "DT";
+            //            break;
+            //    }
+
+            //    property.SetColumnName(prefix + property.GetDefaultColumnName().ToUpper());
+            //}
+
             base.OnModelCreating(builder);
         }
     }

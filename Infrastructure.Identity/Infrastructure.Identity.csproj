@@ -4,6 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Version>1.1.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200626175731_NewSchema.cs" />
+    <Compile Remove="Migrations\20200626175731_NewSchema.Designer.cs" />
+    <Compile Remove="Migrations\20210224065640_TableIds.cs" />
+    <Compile Remove="Migrations\20210224065640_TableIds.Designer.cs" />
+  </ItemGroup>
 <ItemGroup>
   <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.7" />
   <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.7" />
@@ -21,5 +28,8 @@
   </ItemGroup>
 <ItemGroup>
   <ProjectReference Include="..\Application\Application.csproj" />
+</ItemGroup>
+<ItemGroup>
+  <Folder Include="Migrations\" />
 </ItemGroup>
 </Project>
