@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    [Table("TB_PRODUTO")]
+    [Table("PRODUTO")]
     public class Product : AuditableBaseEntity
     {
         [Column("Nome")]
